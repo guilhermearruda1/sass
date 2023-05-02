@@ -1,0 +1,31 @@
+@import '../abstract/variaveis';
+
+nav {
+    text-align: center;
+    background: linear-gradient(to left, $cor-terciaria, $cor-secundaria);
+    ul {
+        li {
+            display: inline-block;
+            padding: 2rem;
+            a {
+                text-transform: uppercase;
+                text-decoration: none;
+                font-weight: bold;
+                color: $cor-primaria;
+                &:hover {
+                    border-bottom: 2px solid $cor-secundaria;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    ul {
+        li {
+            display: flex;
+            text-align: center;
+
+        }
+    }
+}

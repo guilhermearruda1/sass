@@ -1,0 +1,33 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+  /* chama a função(mixin) reset */
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+}
+.container .esquerdo {
+  width: 50%;
+  background-color: #B2A4FF;
+}
+.container .esquerdo .texto {
+  /* estiliza a div do texto apenas do lado esquerdo */
+  margin-top: 40%;
+  text-align: center;
+  font-size: 150px;
+  color: #B0DAFF;
+}
+.container .direito {
+  width: 50%;
+  background-color: #B0DAFF;
+}
+.container .direito .texto {
+  /* estiliza a div do texto apenas do lado esquerdo */
+  margin-top: 40%;
+  text-align: center;
+  font-size: 150px;
+  color: #B2A4FF;
+}/*# sourceMappingURL=style.css.map */
